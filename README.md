@@ -1,6 +1,9 @@
 # Women-Essential
 Women Essential is a all-in-one women health platform.
 
+# Live demo
+The site is deployed throught Heroku, which you can view from [here](https://womenessentials.herokuapp.com)
+
 # Video Demo link
 You can checkout the video demo link [here](https://youtu.be/5TbZr4_iiTE)
 
