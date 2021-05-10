@@ -56,3 +56,9 @@ From the project folder, run these commands in console (terminal) to install dep
 ```
 
 <img src="https://komarev.com/ghpvc/?username=Women-Essential&color=blue&label=+Hackers+inspired"/>
+
+<!-- Breast Cancer: https://breastcancerdetectionweb.herokuapp.com/
+Diabetes: https://diabetiespredictionweb.herokuapp.com/
+Heart Disease: https://heartdiseasepredictionweb.herokuapp.com/
+Kidney Disease: https://kidneydiseasepredictionweb.herokuapp.com/
+-->
