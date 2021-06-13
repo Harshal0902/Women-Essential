@@ -3,6 +3,11 @@ import "./Health.css";
 import TextField from "@material-ui/core/TextField";
 import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles";
 import { Button } from "@material-ui/core";
+import Fitness from "../../Assets/fitness.jpg"
+import Age from "../../Assets/age.svg"
+import Height from "../../Assets/height.svg"
+import Scale from "../../Assets/scale.svg"
+import Water from "../../Assets/water.svg"
 
 function Health() {
 
@@ -24,7 +29,6 @@ function Health() {
 
   const handleSubmit = () => {
     if (height < 1 || weight < 1 || age < 1) {
-      // enqueueSnackbar("Please input correct values", { variant: "error" });
       return;
     }
     setPage1(!page1);
@@ -83,6 +87,7 @@ function Health() {
             <div className="bmi__calculatorContainer">
               <div className="bmi__formContainer">
                 <h2 className="bmi__calculatorHeading">Calculate your BMI</h2>
+                <div className="BmiContent">Your BMI is a measurement that is a ratio of your weight and height. It’s a good way to gauge whether your weight is in healthy proportion to your height. In fact, knowing your BMI can help you – and your GP – determine any health risks you may face if it’s outside of the healthy range.</div>
                 <form className="bmi__form">
                   <TextField
                     label="Height (cm)"
@@ -107,7 +112,7 @@ function Health() {
               </div>
             </div>
             <div className="bmi__imgContainer">
-              <img src={"/images/fitness.jpg"} />
+              <img src={Fitness} />
             </div>
           </div>
         ) : (
@@ -116,19 +121,19 @@ function Health() {
               <div className="bmi__resultHeader">
                 <div className="bmi__inputData">
                   <div>
-                    <img src={"/images/age.svg"} />
+                    <img src={Age} />
                     <p>{age} years</p>
                   </div>
                 </div>
                 <div className="bmi__inputData">
                   <div>
-                    <img src={"/images/height.svg"} />
+                    <img src={Height} />
                     <p>{height} cm</p>
                   </div>
                 </div>
                 <div className="bmi__inputData">
                   <div>
-                    <img src={"/images/scale.svg"} />
+                    <img src={Scale} />
                     <p>{weight} kg</p>
                   </div>
                 </div>
@@ -142,7 +147,7 @@ function Health() {
                 </div>
               </div>
               <div className="bmi__waterContainer">
-                <img src={"/images/water.svg"} />
+                <img src={Water} />
                 <p>Drink At least 8 litres of water daily</p>
               </div>
               <div className="bmi__recommendations">

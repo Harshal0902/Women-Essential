@@ -20,7 +20,7 @@ const theme = {
 const steps = [
   {
     id: "1",
-    message: "Hey! I am Help-bot, how are you feeling today",
+    message: "Hey! I am Sara, how are you feeling today",
     trigger: "expressions",
   },
   {
@@ -221,7 +221,7 @@ function Chatbot() {
           steps={steps}
           handleEnd={handleEnd}
           opened={opened}
-          headerTitle="Assistant"
+          headerTitle="Sara"
           botAvatar={"https://miro.medium.com/max/525/1*lyyXmbeoK5JiIBNCnzzjjg.png"}
           avatarStyle={{ borderRadius: "100%" }}
           floating={true}
