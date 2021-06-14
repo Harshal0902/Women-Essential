@@ -16,7 +16,7 @@ You can checkout the video demo link [here](https://youtu.be/5TbZr4_iiTE) -->
 
 # Methodology
 - For frontend I have used React Js.
-- For Disease prediction I have used Flask.
+- For Disease prediction I have used Flask in backend.
 - For styling we have used Styled Components.
 
 # Dataset used
