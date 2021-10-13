@@ -39,8 +39,8 @@ Required to install and run the software:
 
 From the project folder, run these commands in console (terminal) to install dependencies and run the app:
 ```
-1. npm install
-2. npm run dev
+npm install  
+npm start
 ```
 
 # Some glimps of the site
@@ -58,5 +58,3 @@ Easy appointment with doctor
 ![Doctor 2](https://user-images.githubusercontent.com/64153988/121817650-476b9a80-cca0-11eb-8bd8-ae682f898ee8.png)
 Available in other language
 ![multilanguage](https://user-images.githubusercontent.com/64153988/121817662-53575c80-cca0-11eb-96aa-26dd3f5cea58.png)
-
-<img src="https://komarev.com/ghpvc/?username=Women-Essential&color=blue&label=+Hackers+inspired"/>
