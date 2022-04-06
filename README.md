@@ -28,6 +28,9 @@ You can checkout the video demo link [here](https://youtu.be/5TbZr4_iiTE) -->
 
 4) [Breast Cancer](https://www.kaggle.com/uciml/breast-cancer-wisconsin-data): Winconsin Breast Cancer Dataset
 
+# Credits
+[Medified](https://github.com/hashirpm/medified)
+
 
 ## Prerequisites
 Required to install and run the software:
