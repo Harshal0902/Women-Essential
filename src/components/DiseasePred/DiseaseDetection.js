@@ -17,7 +17,7 @@ function DiseaseDetection() {
 
                     <li>
                         <div className="exp">
-                            <a href="https://breastcancerdetectionweb.herokuapp.com/predict" target="blank" >
+                            <a href="https://breastcancerdetectionweb.herokuapp.com/" target="blank" >
                                 <img src={BreastCancer} className="exp__image" alt="" />
                                 <div className="exp__overlay">
                                     <div className="exp__header">
